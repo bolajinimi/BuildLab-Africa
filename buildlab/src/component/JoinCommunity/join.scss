@@ -1,0 +1,38 @@
+.community {
+    // background-image: url("../../src/assets/home.jpg");
+    // background-size: cover;
+    // position: relative;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // margin-top: 5%;
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../src/assets/communityImg.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    width: 100vw;
+    height: 100vh;
+}
+  
+  .communityTitle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .communityTitle h1 {
+    color: white;
+    z-index: 1;
+  }
+  
+  .communityTitle h1 span {
+    color: yellow;
+  }
+  

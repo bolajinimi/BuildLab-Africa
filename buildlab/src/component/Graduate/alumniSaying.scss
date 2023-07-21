@@ -1,0 +1,45 @@
+.alumniSaying{
+    background-color: rgb(179, 87, 219);
+    margin-top: 10%;
+}
+.titleAlumni{
+    color: #fff;
+    text-align: center;
+}
+
+.box-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(179, 87, 219);
+}
+  
+.box-card .card {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-head{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

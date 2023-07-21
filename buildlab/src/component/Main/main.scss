@@ -1,0 +1,102 @@
+.main{
+    width: 100%;
+
+    .secTitle{
+        .title{
+            position: relative;
+            width: max-content;
+            color: white;
+            margin: 1rem 0;
+            z-index: 2;
+
+            &::after{
+                position: absolute;
+                content: "";
+                background-color: blue;
+                height: 5px;
+                width: 120px;
+                right: 0;
+                bottom: 5px;
+                z-index: -1;
+            }
+        }
+    }
+
+    .secContent{
+        justify-content: center;
+        gap: 1.5rem;
+
+        .singleDestination{
+            height: 100%;
+            display: grid;
+            row-gap: 10px;
+            padding: 1rem;
+            border-radius: 10px;
+            align-items: center;
+            background: white;
+            box-shadow: 0 2px 4px grey;
+            overflow: hidden;
+            &:hover{
+                background: white;
+                box-shadow: 1 4px 4px grey;
+                transition: .3s ease;
+            }
+
+            // .imageDiv{
+            //     height: 100px;
+            //     width: 100%;
+            //     overflow: hidden;
+
+            //     img{
+            //         height: 100%;
+            //         width: 100%;
+            //         object-fit: cover;
+            //         transition: 2s ease;
+            //     }
+            // }
+        }
+
+        .cardInfo{
+            padding: 1rem;
+
+            .destTitle{
+                color: black;
+                font-size: 1.25rem;
+            }
+
+            .continent{
+                gap: .5rem;
+
+                .icon{
+                    color: white;
+                    font-size: 18px;
+                }
+
+                .name{
+                    color: white;
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+            }
+            .fees{
+                width: 100%;
+                justify-content: space-between;
+                padding: 1rem;
+                margin: 1rem 0;
+                border-top: 1.5px solid grey;
+                border-bottom: 1.5px solid grey;
+
+                .desc{
+                    font-size: 13.5px;
+                    color: rgb(199, 61, 61);
+                    font-weight: 500;
+                }
+                .btn{
+                    margin-top: 1rem;
+                    font-weight: 600;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+}

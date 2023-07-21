@@ -1,0 +1,39 @@
+.courseContent{
+   margin: 10%;
+    h1{
+        font-size: 2rem;
+        font-weight: 200;
+        color: black;
+    }
+
+    p{
+       margin: 5%;
+       font-size: small;
+    }
+}
+
+.courseMap{
+    margin: 10%;
+   
+    .cardInfo{
+        padding: 10px 10px;
+        margin-top: 10%;
+        border: 2px solid white;
+        box-shadow: 4px 4px whitesmoke;
+        .icon{
+            font-size: 400%;
+        }
+        h4{
+            font-weight: 200;
+            font-size: larger;
+          
+        }
+
+        .ctn{
+            color: rgb(46, 20, 236);
+            border: none;
+            padding: 15px 15px;
+            background-color: white;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.card {
+    width: 300px;
+    // border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    color: #888;
+  }
+
+
+.slick-next,
+.slick-prev {
+  padding: 14px;
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+    border: none;
+    border-radius: 5vw;
+    background-color: #fff;
+    z-index: 99 !important;
+    box-shadow: rgb(35 35 35 / 50%) 0px 0px 20px 5px;
+    top: 40%;
+    &:hover{
+    background-color:#fff;
+
+    }
+}

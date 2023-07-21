@@ -1,0 +1,53 @@
+.nextNavSection{
+    background-color: rgb(179, 87, 219);
+    width: 100%;
+    height: 100%;
+
+    .nextBoxSizing{
+        height: 50%;
+        background-color: lightgrey;
+        width: 600px;
+        padding: 50px;
+        margin: 50px;
+    }
+    .Success{
+        background-color: rgb(179, 87, 219);
+        color: white;
+        align-items: center;
+    }
+
+}
+.nextPadding{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 3rem 0.5rem;
+    margin: 5% 10%;
+    background-color: white;
+    box-shadow: 4px 6px 4px grey;
+
+    .nextContentFirst{
+        margin-left: 20px;
+    }
+    .nextContentSecond{
+        line-height: 1.5;
+    }
+     .ntn{
+            color: white;
+            background-color: rgb(29, 29, 241);
+            padding: 20px;
+            width: 100%;
+            border: none;
+        }
+    .nextContentThird{
+       font-size: large;
+       font-weight: 500; 
+    } 
+  
+}
+.nextPageContent{
+  margin: 10%;
+  font-size: medium;  
+}
+

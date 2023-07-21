@@ -1,0 +1,32 @@
+.faqsContainer {
+  background-color: rgb(179, 87, 219);
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .faqsTitle {
+    text-align: center;
+    margin: 10%;
+  }
+  
+  .faqsTitle h1 {
+    color: white;
+  }
+  
+  .faqsContent ul {
+    list-style-type: none;
+    background-color: white;
+    padding: 5%;
+    margin: 5%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .faqsContent ul li {
+    margin-bottom: 10px;
+  }
+  
+  .faqsContent ul li select {
+    width: 100%;
+    padding: 5px;
+  }
+  
