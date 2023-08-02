@@ -1,6 +1,7 @@
 import React from 'react'
 import './nextProduct.scss'
 
+
 const NextProduct = () => {
   return (
     <div className='nextNavSection'>

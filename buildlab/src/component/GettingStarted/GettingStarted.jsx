@@ -1,7 +1,6 @@
 import React from 'react'
 import './gettingStarted.scss'
 
-
 const GettingStarted = () => {
 
   return (

@@ -1,6 +1,7 @@
 import React from 'react'
 import './faqs.scss'
 
+
 const FAQs = () => {
   return (
     <div className='faqsContainer'>

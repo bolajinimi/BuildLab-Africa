@@ -7,9 +7,6 @@ import {FcDoughnutChart} from 'react-icons/fc'
 import {GrShieldSecurity} from 'react-icons/gr'
 import {FiArrowRight} from 'react-icons/fi'
 
-
-
-
 const Data = [
 
     {

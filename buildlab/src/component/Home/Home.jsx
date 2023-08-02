@@ -4,8 +4,6 @@ import {FaArrowDown} from 'react-icons/fa'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-
-
 const Home = () => {
 
   useEffect(()=>{

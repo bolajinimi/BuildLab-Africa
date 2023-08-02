@@ -5,6 +5,7 @@ import Curriculum from '../component/Curriculum/Curriculum'
 import Slider from '../component/Slider/Slider'
 import MultipleRows from '../component/MultipleSlide/MultipleSlide.Jsx'
 
+
 const ExperiencePage = () => {
   return (
     <div>

@@ -1,6 +1,7 @@
 import React from 'react';
 // import './greyLogo.scss';
 
+
 const GreyLogo = () => {
   return (
     <div className='greyLogo' style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', height: '100px', backgroundColor: 'whitesmoke' }}>

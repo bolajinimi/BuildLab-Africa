@@ -1,11 +1,12 @@
 import React from 'react'
 import './alumniCard.scss'
 
+
 const data = [
     {
         id:1,
         imgSrc: img,
-        fullName: 'Mary Ann',
+        fullName: 'John Doe',
         role: 'Software Developer'
     },
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import './join.scss'
 
+
 const Join = () => {
   return (
   <div className='community'>

@@ -6,6 +6,7 @@ import img3 from '../../assets/image3.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
+
 const Data = [
 
   {

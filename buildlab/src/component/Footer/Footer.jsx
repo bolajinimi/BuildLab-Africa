@@ -5,9 +5,6 @@ import {BsTwitter} from 'react-icons/bs'
 import {BsFacebook} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
 
-
-
-
 const Footer = () => {
 
  

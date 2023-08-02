@@ -4,9 +4,6 @@ import Courses from '../component/Courses/Courses'
 import Main from '../component/Main/Main'
 
 
-
-
-
 const HomePage = ()=>{
     return (
         <>

@@ -1,6 +1,7 @@
 import React from 'react'
 import './curriculum.scss'
 
+
 const Curriculum = () => {
   return (
     <div  className='curriculumContainer'>

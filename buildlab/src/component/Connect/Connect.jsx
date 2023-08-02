@@ -1,6 +1,7 @@
 import React from 'react'
 import './connect.scss'
 
+
 const Connect = () => {
   return (
     <div>
